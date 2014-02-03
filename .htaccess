@@ -1,4 +1,5 @@
 RewriteEngine on
-RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteRule ^([^/]+)/?$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .*[^/]$ %{REQUEST_URI}/ [L,R=301]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)/$ $1.html [L]
