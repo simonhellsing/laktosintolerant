@@ -8039,7 +8039,12 @@ footer ul li.dark a:hover {
   }
 
   /* line 317, ../scss/app.scss */
-  footer a {
+  footer {
+    color: #fff;
+  }
+
+  /* line 319, ../scss/app.scss */
+  footer ul li a {
     width: 100%;
     display: block;
     padding: 20px;
@@ -8048,13 +8053,13 @@ footer ul li.dark a:hover {
     background-color: #3177e1;
   }
 
-  /* line 327, ../scss/app.scss */
+  /* line 329, ../scss/app.scss */
   footer a:hover {
-    color: #fff;
+    color: #3177e1;
     background-color: #eeeeee;
   }
 
-  /* line 329, ../scss/app.scss */
+  /* line 331, ../scss/app.scss */
   footer .dark a {
     background-color: #eeeeee;
   }
