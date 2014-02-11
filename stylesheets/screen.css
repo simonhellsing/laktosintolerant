@@ -1,0 +1,724 @@
+/* Welcome to Compass.
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../Users/simonhellsing/.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Users/simonhellsing/.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Users/simonhellsing/.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Users/simonhellsing/.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Users/simonhellsing/.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Users/simonhellsing/.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Users/simonhellsing/.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Users/simonhellsing/.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Users/simonhellsing/.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/screen.scss */
+body {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: #262626;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 20px;
+  transition: font-size 0.2s;
+}
+/* line 22, ../sass/screen.scss */
+body a:hover {
+  color: #777777;
+  transition: all 0.15s;
+}
+
+/* line 26, ../sass/screen.scss */
+.splash {
+  background-color: #ccc;
+  width: 100%;
+  margin-bottom: 60px;
+  float: left;
+  -webkit-transition: margin 0.2s;
+  /*Safari & Chrome*/
+  -moz-transition: margin 0.2s;
+  /* Firefox 4 */
+  -o-transition: margin 0.2s;
+  /* Opera */
+  transition: margin 0.2s;
+}
+/* line 37, ../sass/screen.scss */
+.splash h1 {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+/* line 45, ../sass/screen.scss */
+.splash nav {
+  float: left;
+}
+/* line 47, ../sass/screen.scss */
+.splash nav .active {
+  font-size: 0.9em;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 2px;
+  margin-right: 40px;
+}
+/* line 49, ../sass/screen.scss */
+.splash nav a {
+  font-size: 0.9em;
+  color: #262626;
+  text-decoration: none;
+  margin-right: 40px;
+}
+/* line 59, ../sass/screen.scss */
+.splash nav a:hover {
+  color: #ccc;
+}
+/* line 64, ../sass/screen.scss */
+.splash nav .icon-behance a:hover {
+  color: #262626;
+}
+
+/* line 70, ../sass/screen.scss */
+header {
+  margin-left: 12%;
+  margin-right: 12%;
+  width: 76%;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  float: left;
+  -webkit-transition: margin 0.2s;
+  /*Safari & Chrome*/
+  -moz-transition: margin 0.2s;
+  /* Firefox 4 */
+  -o-transition: margin 0.2s;
+  /* Opera */
+  transition: margin 0.2s;
+}
+/* line 83, ../sass/screen.scss */
+header h1 {
+  width: 30%;
+  margin-right: 5%;
+  float: left;
+  display: block;
+}
+/* line 90, ../sass/screen.scss */
+header nav {
+  display: block;
+}
+/* line 93, ../sass/screen.scss */
+header nav .active {
+  font-size: 0.9em;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 2px;
+  margin-right: 40px;
+}
+/* line 95, ../sass/screen.scss */
+header nav a {
+  font-size: 0.9em;
+  color: #262626;
+  text-decoration: none;
+  margin-right: 40px;
+}
+/* line 105, ../sass/screen.scss */
+header nav a:hover {
+  color: #ccc;
+}
+/* line 110, ../sass/screen.scss */
+header nav .icon-behance a:hover {
+  color: #262626;
+}
+
+/* line 117, ../sass/screen.scss */
+article {
+  margin-left: 12%;
+  margin-right: 12%;
+  width: 76%;
+  float: left;
+  -webkit-transition: margin 0.2s;
+  /*Safari & Chrome*/
+  -moz-transition: margin 0.2s;
+  /* Firefox 4 */
+  -o-transition: margin 0.2s;
+  /* Opera */
+  transition: margin 0.2s;
+}
+/* line 128, ../sass/screen.scss */
+article a {
+  color: #262626;
+}
+
+/* line 132, ../sass/screen.scss */
+.col {
+  width: 30%;
+  float: left;
+}
+
+/* line 140, ../sass/screen.scss */
+.thumb {
+  float: left;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: width 0.2s;
+  /*Safari & Chrome*/
+  -moz-transition: width 0.2s;
+  /* Firefox 4 */
+  -o-transition: width 0.2s;
+  /* Opera */
+  transition: width 0.2s;
+}
+/* line 150, ../sass/screen.scss */
+.thumb h2 {
+  font-size: 16px;
+  display: block;
+}
+/* line 155, ../sass/screen.scss */
+.thumb p {
+  font-size: 0.7em;
+  font-weight: 300;
+  margin-bottom: 22px;
+  line-height: 24px;
+  display: block;
+}
+/* line 164, ../sass/screen.scss */
+.thumb .note {
+  font-size: 0.7em;
+  color: #919191;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* line 173, ../sass/screen.scss */
+.view {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  margin-bottom: 24px;
+  vertical-align: top;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+/* line 186, ../sass/screen.scss */
+.view a {
+  text-decoration: none;
+}
+/* line 187, ../sass/screen.scss */
+.view a:hover {
+  color: #fff;
+}
+/* line 189, ../sass/screen.scss */
+.view img {
+  width: 100%;
+  opacity: 1.0;
+}
+/* line 200, ../sass/screen.scss */
+.view .note {
+  font-size: 0.7em;
+  color: #919191;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+/* line 208, ../sass/screen.scss */
+.xl {
+  padding-bottom: 150%;
+}
+/* line 210, ../sass/screen.scss */
+.xl .CTA {
+  padding-top: 65%;
+}
+/* line 216, ../sass/screen.scss */
+.xl .CTA-icon {
+  padding-top: 75%;
+}
+
+/* line 222, ../sass/screen.scss */
+.view .mask, .view .contents {
+  width: 100%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0 h2;
+  left-color: #fff;
+  left-font-weight: 600;
+}
+
+/* line 235, ../sass/screen.scss */
+.view img {
+  display: block;
+  position: relative;
+}
+
+/* line 241, ../sass/screen.scss */
+.view img {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+/* line 248, ../sass/screen.scss */
+.view .mask {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+/* line 260, ../sass/screen.scss */
+.CTA {
+  width: 100%;
+  padding-top: 45%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateY(-50px);
+  -moz-transform: translateY(-50px);
+  -o-transform: translateY(-50px);
+  -ms-transform: translateY(-50px);
+  transform: translateY(0px);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 284, ../sass/screen.scss */
+.view h2 {
+  font-family: 'Lato';
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: 14px;
+  margin-bottom: 18px;
+}
+
+/* line 295, ../sass/screen.scss */
+.CTA-icon {
+  width: 100%;
+  color: #0048ff;
+  padding-top: 55%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -o-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(0px);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 320, ../sass/screen.scss */
+.view:hover .cta-icon {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  color: #fff;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+/* line 336, ../sass/screen.scss */
+.view:hover .mask {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 343, ../sass/screen.scss */
+.view:hover .CTA {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  color: #fff;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+/* line 359, ../sass/screen.scss */
+.divider-first {
+  width: 5%;
+  height: 30px;
+  float: left;
+}
+
+/* line 365, ../sass/screen.scss */
+.divider-second {
+  width: 5%;
+  height: 30px;
+  float: left;
+}
+
+/* line 374, ../sass/screen.scss */
+.left {
+  width: 31.3333333333333%;
+  margin-right: 3%;
+  float: left;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+/* line 382, ../sass/screen.scss */
+.left img {
+  border-radius: 14em;
+  width: 60%;
+  margin-bottom: 20px;
+}
+/* line 384, ../sass/screen.scss */
+.left h2 {
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+/* line 388, ../sass/screen.scss */
+.left h2 a {
+  font-size: 1em;
+  opacity: 1;
+}
+/* line 389, ../sass/screen.scss */
+.left h2 a:hover {
+  font-size: 1em;
+  color: #ccc;
+}
+/* line 395, ../sass/screen.scss */
+.left p {
+  font-size: 0.7em;
+  font-weight: 300;
+}
+/* line 401, ../sass/screen.scss */
+.left .note {
+  font-size: 0.7em;
+  color: #919191;
+  margin-bottom: 4px;
+}
+/* line 407, ../sass/screen.scss */
+.left .divider {
+  width: 50%;
+  display: block;
+  padding-top: 20px;
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 20px;
+}
+/* line 410, ../sass/screen.scss */
+.left a {
+  text-decoration: none;
+  color: #262626;
+  margin-right: 14px;
+  font-size: 0.8em;
+  opacity: .4;
+}
+/* line 419, ../sass/screen.scss */
+.left a:hover {
+  opacity: .9;
+  color: #262626;
+}
+
+/* line 425, ../sass/screen.scss */
+#container img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* line 427, ../sass/screen.scss */
+.content {
+  width: 65.6666666666667%;
+  padding-bottom: 60px;
+  float: left;
+}
+/* line 433, ../sass/screen.scss */
+.content img {
+  width: 100%;
+  margin-top: 20px;
+}
+/* line 435, ../sass/screen.scss */
+.content h2 {
+  font-size: 1.2em;
+  margin-bottom: 22px;
+}
+/* line 440, ../sass/screen.scss */
+.content p {
+  font-size: 0.8em;
+  font-weight: 300;
+  margin-bottom: 22px;
+  line-height: 24px;
+}
+/* line 447, ../sass/screen.scss */
+.content .note {
+  font-size: 0.7em;
+  color: #919191;
+  margin-bottom: 20px;
+}
+/* line 452, ../sass/screen.scss */
+.content .note a {
+  text-decoration: none;
+}
+
+/* line 457, ../sass/screen.scss */
+.content, .front {
+  line-height: 28px;
+}
+
+/* line 462, ../sass/screen.scss */
+.large {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+/* line 468, ../sass/screen.scss */
+.small {
+  width: 48%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+/* line 474, ../sass/screen.scss */
+.img-divider {
+  width: 4%;
+  height: 30px;
+  float: left;
+}
+
+@media screen and (min-width: 1340px) and (max-width: 2600px) {
+  /* line 485, ../sass/screen.scss */
+  body {
+    font-size: 26px;
+  }
+
+  /* line 487, ../sass/screen.scss */
+  .content p {
+    line-height: 28px;
+  }
+
+  /* line 493, ../sass/screen.scss */
+  .col p {
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 960px) {
+  /* line 504, ../sass/screen.scss */
+  header {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+  }
+
+  /* line 510, ../sass/screen.scss */
+  article {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 840px) {
+  /* line 523, ../sass/screen.scss */
+  article {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+  }
+
+  /* line 530, ../sass/screen.scss */
+  .col {
+    width: 48%;
+  }
+
+  /* line 536, ../sass/screen.scss */
+  .divider-first {
+    width: 4%;
+  }
+
+  /* line 537, ../sass/screen.scss */
+  .divider-second {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 620px) {
+  /* line 543, ../sass/screen.scss */
+  .large {
+    margin-bottom: 20px;
+  }
+
+  /* line 544, ../sass/screen.scss */
+  .small {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* line 545, ../sass/screen.scss */
+  .img-divider {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 520px) {
+  /* line 552, ../sass/screen.scss */
+  header h1 {
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 1px dotted #ccc;
+  }
+  /* line 557, ../sass/screen.scss */
+  header nav {
+    width: 100%;
+    float: left;
+  }
+  /* line 561, ../sass/screen.scss */
+  header nav .active {
+    width: 100%;
+    float: left;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px dotted #ccc;
+    color: #262626;
+    text-decoration: none;
+    margin-right: 40px;
+  }
+  /* line 572, ../sass/screen.scss */
+  header nav a {
+    width: 100%;
+    float: left;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px dotted #ccc;
+    color: #262626;
+    text-decoration: none;
+    margin-right: 40px;
+  }
+  /* line 586, ../sass/screen.scss */
+  header nav a:hover {
+    color: #ccc;
+  }
+  /* line 591, ../sass/screen.scss */
+  header nav .icon-behance a:hover {
+    color: #262626;
+  }
+
+  /* line 598, ../sass/screen.scss */
+  article {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+  }
+
+  /* line 604, ../sass/screen.scss */
+  .col {
+    width: 100%;
+  }
+
+  /* line 610, ../sass/screen.scss */
+  .divider-first {
+    display: none;
+  }
+
+  /* line 612, ../sass/screen.scss */
+  .left {
+    width: 100%;
+  }
+  /* line 617, ../sass/screen.scss */
+  .left .icon-left-open-big {
+    display: none;
+  }
+  /* line 618, ../sass/screen.scss */
+  .left a {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  /* line 628, ../sass/screen.scss */
+  .content {
+    width: 100%;
+  }
+}
