@@ -642,7 +642,7 @@ article a {
     display: none;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 520px) {
+@media screen and (min-width: 320px) and (max-width: 520px), screen and (max-device-width: 480px) {
   /* line 552, ../sass/screen.scss */
   header h1 {
     width: 100%;
@@ -718,86 +718,6 @@ article a {
   }
 
   /* line 628, ../sass/screen.scss */
-  .content {
-    width: 100%;
-  }
-}
-@media device and (min-width: 320px) and (max-width: 520px) {
-  /* line 634, ../sass/screen.scss */
-  header h1 {
-    width: 100%;
-    padding-bottom: 40px;
-    border-bottom: 1px dotted #ccc;
-  }
-  /* line 639, ../sass/screen.scss */
-  header nav {
-    width: 100%;
-    float: left;
-  }
-  /* line 643, ../sass/screen.scss */
-  header nav .active {
-    width: 100%;
-    float: left;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    border-bottom: 1px dotted #ccc;
-    color: #262626;
-    text-decoration: none;
-    margin-right: 40px;
-  }
-  /* line 654, ../sass/screen.scss */
-  header nav a {
-    width: 100%;
-    float: left;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    border-bottom: 1px dotted #ccc;
-    color: #262626;
-    text-decoration: none;
-    margin-right: 40px;
-  }
-  /* line 668, ../sass/screen.scss */
-  header nav a:hover {
-    color: #ccc;
-  }
-  /* line 673, ../sass/screen.scss */
-  header nav .icon-behance a:hover {
-    color: #262626;
-  }
-
-  /* line 680, ../sass/screen.scss */
-  article {
-    margin-left: 4%;
-    margin-right: 4%;
-    width: 92%;
-  }
-
-  /* line 686, ../sass/screen.scss */
-  .col {
-    width: 100%;
-  }
-
-  /* line 692, ../sass/screen.scss */
-  .divider-first {
-    display: none;
-  }
-
-  /* line 694, ../sass/screen.scss */
-  .left {
-    width: 100%;
-  }
-  /* line 699, ../sass/screen.scss */
-  .left .icon-left-open-big {
-    display: none;
-  }
-  /* line 700, ../sass/screen.scss */
-  .left a {
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  /* line 710, ../sass/screen.scss */
   .content {
     width: 100%;
   }
